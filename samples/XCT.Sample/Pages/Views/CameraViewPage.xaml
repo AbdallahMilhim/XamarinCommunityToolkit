@@ -92,6 +92,17 @@
                             Toggled="FlashSwitch_Toggled" />
                         <Label Text="Flash" />
                     </StackLayout>
+                    <StackLayout
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="5"
+                        Orientation="Horizontal">
+                        <List
+                            Margin="0,0,0,5"
+                            IsToggled="False"
+                            Toggled="FlashSwitch_Toggled" />
+                        <Label Text="Reslution" />
+                    </StackLayout>
                 </Grid>
 
                 <Button
